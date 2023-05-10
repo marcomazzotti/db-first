@@ -1,0 +1,16 @@
+Tabella auto
+--------------------------------
+id - PRIMARY_KEY (NOT NULL - UNIQUE) - AUTO_INCREMENT - INT - UNSIGNED
+Marca - NOT NULL - VARCHAR(20)
+Modello - NOT NULL - VARCHAR(20)
+Cilindrata - INT
+Cavalli - SMALLINT
+Cambio - TINYINT
+Foto - NOT NULL - DEFAULT - TEXT
+Descrizione - TEXT
+Anno_immatricolazione - NOT NULL - DATE(YYYY-MM-GG)
+Prezzo - NOT NULL - FLOAT(10, 2)
+KM_percorsi - FLOAT(8, 2)
+Numero_posti - TINYINT
+Numero_porte - TINYINT
+Colore - VARCHAR(30)
